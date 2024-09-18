@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    height: 300px;
+    width: 200px;
+    background-color: ghostwhite;
+    border: 1px solid black;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    color: green;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.target {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 10px 0;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
